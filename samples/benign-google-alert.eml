@@ -1,0 +1,29 @@
+Return-Path: <3-no-reply@accounts.google[.]com>
+Received: from mail-yb1-f201.google.com (mail-yb1-f201.google.com [209[.]85[.]219[.]201])
+	by mx.example.com (Postfix) with ESMTPS id 77C31C0D33
+	for <user@example.com>; Mon, 13 Oct 2026 21:41:30 -0700 (PDT)
+Received: by mail-yb1-f201.google.com with SMTP id 3f1490d57ef6;
+	Mon, 13 Oct 2026 21:41:29 -0700 (PDT)
+Authentication-Results: mx.example.com;
+	spf=pass smtp.mailfrom=accounts.google.com;
+	dkim=pass header.d=accounts.google.com;
+	dmarc=pass (p=reject) header.from=accounts.google.com
+From: "Google" <no-reply@accounts.google[.]com>
+To: user@example.com
+Subject: Security alert
+Date: Mon, 13 Oct 2026 21:41:28 -0700
+Message-ID: <abcd1234@accounts.google.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+A new sign-in on Windows
+
+We noticed a new sign-in to your Google Account on a Windows device. If this
+was you, you do not need to do anything. If not, we will help you secure your
+account.
+
+Check activity: hxxps://myaccount.google[.]com/notifications
+
+You received this email to let you know about important changes to your
+Google Account and services.

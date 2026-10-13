@@ -1,0 +1,45 @@
+Return-Path: <bounce@github[.]com>
+Received: from out-26.smtp.github.com (out-26.smtp.github.com [192[.]30[.]252[.]207])
+	by mx.example.com (Postfix) with ESMTPS id 1A0C9C0B77
+	for <user@example.com>; Mon, 13 Oct 2026 06:00:02 -0700 (PDT)
+Received: from github-lowworker (localhost [127[.]0[.]0[.]1])
+	by smtp.github.com; Mon, 13 Oct 2026 06:00:01 -0700 (PDT)
+Authentication-Results: mx.example.com;
+	spf=pass smtp.mailfrom=github.com;
+	dkim=pass header.d=github.com;
+	dmarc=pass (p=reject) header.from=github.com
+From: "GitHub" <noreply@github[.]com>
+To: user@example.com
+Subject: [GitHub] Your weekly digest
+Date: Mon, 13 Oct 2026 06:00:00 -0700
+Message-ID: <github/digest/20261013@github.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="GH-BND"
+
+--GH-BND
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Here is what happened in your repositories this week.
+
+- 3 new stars on your automation-portfolio
+- 1 pull request merged
+
+Browse your dashboard: hxxps://github[.]com/dashboard
+Manage email preferences: hxxps://github[.]com/settings/notifications
+
+GitHub, 88 Colin P Kelly Jr St, San Francisco, CA
+
+--GH-BND
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+<html><body>
+<p>Here is what happened in your repositories this week.</p>
+<ul><li>3 new stars on your automation-portfolio</li>
+<li>1 pull request merged</li></ul>
+<p><a href="hxxps://github[.]com/dashboard">github.com/dashboard</a></p>
+<p><a href="hxxps://github[.]com/settings/notifications">Manage email preferences</a></p>
+</body></html>
+
+--GH-BND--

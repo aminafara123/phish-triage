@@ -1,0 +1,6 @@
+# Core tool + tests use only the Python standard library.
+pytest>=8,<10
+
+# Optional: only the MCP server (python -m phish_triage.mcp_server) needs this.
+# Nothing in the test gate imports it.
+mcp>=1,<2

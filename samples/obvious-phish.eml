@@ -1,0 +1,64 @@
+Return-Path: <bounce@mailer-paypa1[.]com>
+Received: from mailer-paypa1[.]com (unknown [203[.]0[.]113[.]66])
+	by mx.example.com (Postfix) with ESMTP id 9F2A1C004E
+	for <user@example.com>; Mon, 13 Oct 2026 02:14:55 -0700 (PDT)
+Received: from localhost (localhost [127[.]0[.]0[.]1])
+	by mailer-paypa1[.]com (Postfix); Mon, 13 Oct 2026 02:14:50 -0700 (PDT)
+Authentication-Results: mx.example.com;
+	spf=fail (sender IP is 203.0.113.66) smtp.mailfrom=mailer-paypa1.com;
+	dkim=fail header.d=paypa1-secure.com;
+	dmarc=fail (p=reject sp=reject dis=none) header.from=paypal.com
+From: "PayPal Security" <service@paypa1-secure[.]com>
+Reply-To: "PayPal Support" <recover@secure-refund[.]net>
+To: user@example.com
+Subject: Urgent: Your account has been suspended - verify within 24 hours
+Date: Mon, 13 Oct 2026 02:14:48 -0700
+Message-ID: <20261013021448.9F2A1C004E@mailer-paypa1.com>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="MIXED-BND"
+
+--MIXED-BND
+Content-Type: multipart/alternative; boundary="ALT-BND"
+
+--ALT-BND
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Dear Customer,
+
+We detected unusual activity on your PayPal account and it has been
+suspended. You must verify your identity within 24 hours or your account
+will be permanently closed.
+
+Click here to confirm your account and restore access:
+hxxps://paypa1-secure[.]com/verify?account=user@example.com
+
+Failure to act now will result in permanent suspension.
+
+PayPal Security Team
+
+--ALT-BND
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+<html><body>
+<p>Dear Customer,</p>
+<p>We detected <b>unusual activity</b> on your account and it has been
+<b>suspended</b>. You must <b>verify your identity within 24 hours</b> or
+your account will be permanently closed.</p>
+<p><a href="hxxps://paypa1-secure[.]com/verify?account=user@example.com">
+https://www.paypal.com/account/verify</a></p>
+<p>Failure to act now will result in permanent suspension.</p>
+</body></html>
+
+--ALT-BND--
+
+--MIXED-BND
+Content-Type: text/html; name="PayPal_Invoice.html"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename="PayPal_Invoice.html"
+
+<html><body><form action="hxxps://paypa1-secure[.]com/collect">
+Enter your password to view the invoice.</form></body></html>
+
+--MIXED-BND--
