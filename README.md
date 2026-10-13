@@ -30,7 +30,17 @@ flowchart LR
 
 The score and verdict are produced entirely by steps B through D. The LLM in step E reads the finished findings and writes prose about them. It cannot change the number.
 
-## Quickstart
+## Install
+
+```bash
+pipx install git+https://github.com/aminafara123/phish-triage
+phish-triage suspicious.eml                 # or: phish-triage --no-llm *.eml
+```
+
+The MCP server is an optional extra: `pipx install "git+https://github.com/aminafara123/phish-triage[mcp]"`.
+From a local clone you can also just `pip install .` (add `.[mcp]` for the server).
+
+## Quickstart (clone + make)
 
 ```bash
 git clone https://github.com/aminafara123/phish-triage && cd phish-triage
